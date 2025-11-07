@@ -97,6 +97,6 @@ Expected output:
 ---
 
 ## Credits
-Based on [Nasser Maronie’s Dev.to]('https://dev.to/nassermaronie/build-your-own-rag-app-a-step-by-step-guide-to-setup-llm-locally-using-ollama-python-and-chromadb-b12') tutorial.
+Based on [Nasser Maronie’s Dev.to](https://dev.to/nassermaronie/build-your-own-rag-app-a-step-by-step-guide-to-setup-llm-locally-using-ollama-python-and-chromadb-b12) tutorial.
 
 Customized and updated for modern LangChain, ChromaDB, and Flask.
