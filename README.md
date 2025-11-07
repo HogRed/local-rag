@@ -44,7 +44,7 @@ local-rag/
 ## Setup Instructions
 
 ### 1. Clone the Repository
-git clone https://github.com/YOUR_USERNAME/local-rag.git
+git clone https://github.com/HogRed/local-rag.git
 cd local-rag
 
 ### 2. Create and Activate a Virtual Environment
