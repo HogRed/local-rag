@@ -1,6 +1,7 @@
 # Local RAG App (Flask + ChromaDB + Ollama)
 
-This project demonstrates a **local Retrieval-Augmented Generation (RAG)** pipeline using **Flask**, **ChromaDB**, and **LangChain**.  
+This project demonstrates a **local Retrieval-Augmented Generation (RAG)** pipeline using **Flask**, **ChromaDB**, and **LangChain**. 
+
 It allows you to upload PDF documents, embed them into a vector database, and query them locally using a language model (e.g., **Ollama**).
 
 ---
