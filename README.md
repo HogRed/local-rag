@@ -78,20 +78,25 @@ python app.py
 
 ## Upload and Embed a PDF
 Open another terminal (with your venv activated) and run:
+
 curl -X POST "http://127.0.0.1:8080/embed" -H "Content-Type: multipart/form-data" -F "file=@docs/test.pdf"
 
 Expected output:
+
 {"message": "File embedded successfully"}
 
 ## Query Your Documents
 Once embeddings are created, query your PDF using:
+
 curl -X POST "http://127.0.0.1:8080/query" -H "Content-Type: application/json" -d "{ \"query\": \"Ask something that should be answerable from the PDF\" }"
 
 Expected output:
+
 {"message": "LLM-generated response"}
 
 ---
 
 ## Credits
 Based on [Nasser Maronie’s Dev.to]('https://dev.to/nassermaronie/build-your-own-rag-app-a-step-by-step-guide-to-setup-llm-locally-using-ollama-python-and-chromadb-b12') tutorial.
+
 Customized and updated for modern LangChain, ChromaDB, and Flask.
