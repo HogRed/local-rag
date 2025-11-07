@@ -16,16 +16,27 @@ It allows you to upload PDF documents, embed them into a vector database, and qu
 
 ## Project Structure
 local-rag/
+
 ├── app.py # Flask app entrypoint
+
 ├── embed.py # Handles PDF embedding
+
 ├── query.py # Query logic using LangChain
+
 ├── get_vector_db.py # ChromaDB initialization
+
 ├── docs/ # Folder for uploaded or sample PDFs
+
 ├── chroma/ # Vector database (ignored by Git)
+
 ├── venv/ # Virtual environment (ignored)
+
 ├── .env # API keys and configuration (ignored)
+
 ├── requirements.txt # Dependencies
+
 ├── .gitignore # Ignore unnecessary or sensitive files
+
 └── README.md # This file
 
 ---
