@@ -45,10 +45,12 @@ local-rag/
 
 ### 1. Clone the Repository
 git clone https://github.com/HogRed/local-rag.git
+
 cd local-rag
 
 ### 2. Create and Activate a Virtual Environment
 python -m venv venv
+
 venv\Scripts\activate
 
 ### 3. Install Dependencies
