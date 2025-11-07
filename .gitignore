@@ -1,0 +1,23 @@
+# Virtual environment
+venv/
+.env
+
+docs/
+
+# Python cache
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# IDE / editor files
+.vscode/
+.idea/
+
+# Chroma or temp data
+chroma/
+_temp/
+
+# System
+.DS_Store
+Thumbs.db
