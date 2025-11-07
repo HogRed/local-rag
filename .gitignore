@@ -2,7 +2,9 @@
 venv/
 .env
 
-docs/
+# Ignore everything inside docs except .gitkeep
+docs/*
+!docs/.gitkeep
 
 # Python cache
 __pycache__/
