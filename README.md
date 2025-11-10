@@ -151,7 +151,7 @@ git pull origin main
 ## Requirements
 
 * Python 3.10 or higher
-* Ollama installed locally with the `mistral` model and nomic-embed-text embedding model pulled.
+* Ollama installed locally with the `mistral` model and `nomic-embed-text` embedding model pulled.
 
   ```bash
   ollama pull mistral
