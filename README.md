@@ -151,10 +151,11 @@ git pull origin main
 ## Requirements
 
 * Python 3.10 or higher
-* Ollama installed locally with the `mistral` model pulled
+* Ollama installed locally with the `mistral` model and nomic-embed-text embedding model pulled.
 
   ```bash
   ollama pull mistral
+  ollama pull nomic-embed-text
   ```
 * ChromaDB and LangChain dependencies (installed via `requirements.txt`)
 
